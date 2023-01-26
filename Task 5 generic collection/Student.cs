@@ -42,7 +42,7 @@ namespace Task_5_generic_collection
         public int CalculateGrade()
         {
             int grade;
-            int sumTotal = CalculateSum();
+            int sumTotal = ExamPoints.Sum();
             if (sumTotal < 26)
                 grade = 0;
             else if (sumTotal < 31)
